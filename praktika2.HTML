@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Catch the Button</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="game">
+  <h1>🎯 Поймай кнопку</h1>
+
+  <div class="panel">
+    <div>⏱ <span id="time">15</span> сек</div>
+    <div>🎯 Попытки: <span id="tries">0</span></div>
+    <div>🏆 Рекорд: <span id="record">—</span></div>
+  </div>
+
+  <div class="progress">
+    <div class="bar" id="bar"></div>
+  </div>
+
+  <div class="arena" id="arena">
+    <button id="runButton">СБРОС</button>
+  </div>
+
+  <select id="level">
+    <option value="easy">Easy</option>
+    <option value="normal" selected>Normal</option>
+    <option value="hard">Hard</option>
+    <option value="insane">Insane</option>
+  </select>
+
+  <button id="startButton">СТАРТ</button>
+  <p id="result"></p>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
+
